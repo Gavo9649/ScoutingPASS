@@ -26,11 +26,11 @@ var config_data = `
       "gsCol": "level",
       "type": "level",
       "choices": {
-        "qm": "Quals<br>",
-        "de": "Double Elimination<br>",
-        "f": "Finals"
+        "quals": "Quals<br>",
+        "playoffs": "Double Elimination<br>",
+        "finals": "Finals"
       },
-      "defaultValue": "qm",
+      "defaultValue": "quals",
       "required": "true"
     },
     { "name": "Match #",
